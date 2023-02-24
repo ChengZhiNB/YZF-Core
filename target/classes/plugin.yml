@@ -1,0 +1,14 @@
+name: YZF-Core
+version: '1.0-SNAPSHOT'
+main: cn.ChengZhiYa.YZFCore.main
+api-version: 1.18
+authors: [ ChengZhiYa, XiaoYe, YZFAllPlayer ]
+description: This Best Plugin
+commands:
+  YZFReload:
+    description: 插件重载
+    permission: YZF.op
+permissions:
+  YZF.op:
+    description: op权限
+    default: op
